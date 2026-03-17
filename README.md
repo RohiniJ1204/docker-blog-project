@@ -61,9 +61,11 @@ docker-blog-project
 ## Screenshots
 
 **App Running**
+
 ![App running](screenshots/app-running.png)
  
 **Logs Output**
+
 ![Logs](screenshots/logs.png)
 
 ---
