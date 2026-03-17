@@ -32,7 +32,9 @@ docker-blog-project
 ├── app
 
 │   ├── Dockerfile
+
 │   ├── app.js
+
 │   └── package.json
 
 ├── architecture.png
@@ -40,7 +42,9 @@ docker-blog-project
 ├── docker-compose.yml
 
 └── screenshots
+    
     ├── app-running.png
+    
     └── logs.png
 ---
 
