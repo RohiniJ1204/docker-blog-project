@@ -45,17 +45,16 @@ docker-blog-project
 ## Setup Instructions
 
 1. **Clone the repository**
-'''bash
-git clone https://github.com/RohiniJ1204/docker-blog-project.git
+- git clone https://github.com/RohiniJ1204/docker-blog-project.git
 
 2. **Go to project folder**
-cd docker-blog-project
+- cd docker-blog-project
 
 3. **Start the containers**
-docker compose up --build
+- docker compose up --build
 
 4. **Open the app in your browser**
-http://localhost:3000
+- http://localhost:3000
 
 ---
 
