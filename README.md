@@ -26,27 +26,16 @@ This project is a simple Node.js application connected to a MySQL database, runn
 ## Project Structure
 
 docker-blog-project
-
 ├── README.md
-
 ├── app
-
-│   ├── Dockerfile
-
-│   ├── app.js
-
-│   └── package.json
-
-├── architecture.png
-
+│ └── app.js
+├── Dockerfile
 ├── docker-compose.yml
-
-└── screenshots
-    
-    ├── app-running.png
-    
-    └── logs.png
----
+├── package.json
+├── screenshots
+│ └── app-running.png
+├── architecture.png
+└── logs.png
 
 ## Project instructions
 
