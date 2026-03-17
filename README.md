@@ -1,7 +1,7 @@
 # Docker Node.js + MySQL Project
 
 ## Description
-This project is a simple Node.js application connected to a MySQL database, running entirely inside Docker containers. Docker Compose is used to orchestrate multiple containers, handle networking, and manage persistent database storage.
+A simple Node.js application containerized using Docker and orchestrated with Docker Compose. This project demonstrates how to package an application with all its dependencies and run it consistently across different environments.
 
 ---
 
@@ -38,11 +38,23 @@ docker-blog-project
 ├── architecture.png
 └── docker-compose.yml
 ```
-## Project instructions
+## How it works
+
+---
+
+- The Node.js application is defined inside the **app** folder.
+- The Dockerfile builds an image of the application.
+- Docker Compose is used to:
+     - Build the Docker image
+     - Run the container
+     - Expose the application on a specific port
+- The app runs inside a container and is accessible via your browser.
 
 ---
 
 ## Setup Instructions
+
+---
 
 1. **Clone the repository**
    - git clone https://github.com/RohiniJ1204/docker-blog-project.git
@@ -60,6 +72,8 @@ docker-blog-project
 
 ## Screenshots
 
+---
+
 **App Running**
 
 ![App running](screenshots/app-running.png)
@@ -70,22 +84,25 @@ docker-blog-project
 
 ---
 
-## Notes
-- Database data is persisted using the Docker volume db-data.
-- Node.js container connects to MySQL container using service name db.
-- Ports used:
-  - Node.js → 3000
-  - MySQL → 3306 (internal container port)
-- Environment variables can be configured in .env (use .env.example as a template).
+## Key concepts demonstrated
 
 ---
 
-## Optional Improvements
-- Add authentication and API routes for Node.js.
-- Use .env for secure credentials.
-- Add more screenshots for different app features.
-- Implement automated tests for Node.js routes.
+- Containerization using Docker.
+- Writing a Dockerfile for a Node.js app
+- Using Docker compose for multi-container management.
+- Environment consistency and portability.
+
+---
+
+## Future Improvements
+
+---
+
+- Add environment variables support.
+- Use Nginx as a reverse proxy.
 - Use Docker healthchecks and logs monitoring for production.
+- Deploy using cloud platforms.
 
 ---
 
@@ -93,6 +110,16 @@ docker-blog-project
 - *Name:* Rohini Javvaji
 - *GitHub:* [Rohini Javvaji](https://github.com/RohiniJ1204)
 - *Email:* rohini.javvaji.dev@gmail.com
+
+---
+
+## Acknowledgement
+
+---
+
+This project is created for learning and demonstrating Docker fundamentals.
+
+
 
 
 
